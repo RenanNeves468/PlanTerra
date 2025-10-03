@@ -124,6 +124,13 @@ body{
     align-items: center;
     justify-content: space-evenly;
 }
+.item button{
+    background-color: #436342;
+    color: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+}
 
 .item img{
     height: 110px;
