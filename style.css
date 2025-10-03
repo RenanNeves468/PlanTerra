@@ -1,0 +1,111 @@
+/* Página Home*/
+body{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+    grid-template-columns: 15vw 85vw;
+    grid-template-rows: 11vh 81vh 8vh;
+    gap: 0;
+}
+
+.header{
+    grid-area: header;
+    background-color: #436342;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header img{
+    width: 4vw;
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
+.header span{
+    color: #F7EDD9;
+    font-size: 5vh;
+}
+
+
+.aside{
+    grid-area: aside;
+    background-color: #9F6C3A;
+}
+.menu-vertical{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.menu-vertical img{
+    width: 1vw;
+    margin-right: 1vw;
+}
+.menu-vertical li a{
+    color: #F7EDD9;
+    text-decoration: none;
+    font-size: 3vh;
+    height: 2vh;
+    padding:  3vh;
+    border-bottom: 1px  solid #5E3D1D;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-vertical li a:hover{
+    background-color: #744110;
+    cursor: pointer;
+    transition: 0.80s;
+}
+#botaoHome {
+    background-color: #744110;
+}
+
+.main{
+    grid-area: main;
+    background-color: #FFFFFF;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #436342;
+}
+
+.home{
+    background-image: url(resources/jardineiro2.jpg);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home img{
+    width: 13vw;
+}
+
+.footer{
+    color: #F7EDD9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Página Plantas*/
+.plantas{
+    background-color: #FFFFFF;
+}
+.plantas h2{
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #436342;
+}
+
+.item{
+    background-color: #ddd;
+}
