@@ -99,6 +99,8 @@ body{
 /* Página Plantas*/
 .plantas{
     background-color: #FFFFFF;
+    padding: 20px;
+    overflow-y: auto;
 }
 .plantas h2{
     margin-bottom: 20px;
@@ -126,4 +128,7 @@ body{
 .item img{
     height: 110px;
     width: 120px;
+}
+.item h3{
+    margin: 0;
 }
