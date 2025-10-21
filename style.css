@@ -139,3 +139,27 @@ body{
 .item h3{
     margin: 0;
 }
+
+
+/* VASOS CSS*/
+
+.vasos{
+    background-color: #FFFFFF;
+    overflow-y: auto;
+    padding: 20px;
+}
+.filtros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+.filtros span{
+    margin-right: 1vw;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+
+}
